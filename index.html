@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es-AR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghia · Software, aplicaciones a medida & ERP</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+
+   <meta name="description" content="En Ghia transformamos empresas con ingeniería de software, tiendas y sistemas ERP escalables. Soluciones tecnológicas en Argentina." />
+    <meta name="keywords" content="Ingeniería de software, Odoo, WooCommerce, Diseño web corporativo, desarrollo a medida, Ghia, transformación digital" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.ghia.com.ar/" />
+    <meta property="og:title" content="Ghia · Software, aplicaciones a medida & ERP" />
+    <meta property="og:description" content="Potenciamos tu empresa con software de alta gama. Conocé nuestras soluciones ERP." />
+    <!-- <meta property="og:image" content="https://www.ghia.com/img/og-preview.jpg" />  -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ghia · Software, aplicaciones a medida & ERP" />
+    <meta name="twitter:description" content="Expertos en desarrollo de software y sistemas de gestión ERP." />
+    <!-- <meta name="twitter:image" content="https://www.ghia.com/img/og-preview.jpg" /> -->
+
+    <link rel="icon" type="image/ico" href="assets/favicon.ico" />
+    <link rel="apple-touch-icon" href="assets/favicon.ico" />
+</head>
+
+<body class="bg-ghia-dark text-gray-100 antialiased font-sans">
+    <header class="fixed top-0 w-full z-50 backdrop-blur-xl bg-ghia-dark/80 border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="text-2xl font-title font-800 tracking-tighter text-white">
+                <a href="">GHIA<span class="text-blue-500">.</span></a>
+            </div>
+
+            <nav class="hidden md:flex gap-10 text-sm font-semibold uppercase tracking-wider">
+                <a href="#servicios" class="text-gray-400 hover:text-white transition">Servicios</a>
+                <a href="#empresas" class="text-gray-400 hover:text-white transition">Empresas</a>
+                <a href="#equipo" class="text-gray-400 hover:text-white transition">Equipo</a> 
+                <a href="#contacto" class="text-gray-400 hover:text-white transition">Contacto</a>
+            </nav>
+
+            <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path></svg>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="fixed inset-0 h-screen bg-ghia-dark/95 backdrop-blur-2xl flex flex-col items-center justify-center gap-8 z-40 md:hidden">
+            <a href="#servicios" class="mobile-link text-3xl font-title font-800 hover:text-blue-400 transition">Servicios</a>
+            <a href="#empresas" class="mobile-link text-3xl font-title font-800 hover:text-blue-400 transition">Empresas</a>
+            <a href="#equipo" class="mobile-link text-3xl font-title font-800 hover:text-blue-400 transition">Equipo</a>
+            <a href="#contacto" class="mobile-link text-3xl font-title font-800 hover:text-blue-400 transition">Contacto</a>
+            <button id="close-menu" class="mt-8 p-4 rounded-full border border-white/10 text-gray-400 font-bold">Cerrar</button>
+        </div>
+    </header>
+
+    <main>
+       <section class="relative min-h-[90vh] md:min-h-screen flex items-center pt-28 pb-20 overflow-hidden">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_#2563eb25_0%,_transparent_50%)]"></div>
+            <div class="absolute top-1/2 -left-20 w-80 h-80 bg-blue-600/10 blur-[120px] rounded-full pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-6 relative z-10">
+                <div class="max-w-4xl">
+                    <h1 class="fade-in font-title text-5xl sm:text-6xl lg:text-8xl font-800 leading-[0.95] tracking-tight mb-8 text-white">
+                        Software que se <br />
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-400">
+                            adapta a tu negocio.
+                        </span>
+                    </h1>
+
+                    <p class="fade-in text-lg md:text-2xl text-gray-400/90 font-medium max-w-2xl mb-12 leading-relaxed">
+                        Diseñamos sistemas a medida para ordenar operaciones, automatizar tareas y centralizar la información <span class="text-white/60">sin fricción ni sobrecostos.</span>
+                    </p>
+
+                    <div class="fade-in flex flex-col sm:flex-row gap-4 md:gap-6">
+                        <a href="#contacto" class="btn-gradient group px-10 py-5 rounded-2xl font-800 font-semibold text-lg text-slate-950 tracking-tighter shadow-xl text-center flex items-center justify-center gap-2">
+                            Contactanos ahora
+                            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                        </a>
+                        <a href="#servicios" class="px-10 py-5 rounded-2xl font-bold border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/5 transition-all backdrop-blur-md text-center text-white/90 text-lg">
+                            Ver soluciones
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="py-32">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="mb-16">
+                    <h3 class="reveal font-title text-4xl font-800 mb-4 text-white">Nuestros servicios</h3>
+                    <div class="reveal w-20 h-1.5 bg-blue-600"></div>
+                </div>
+                <div class="grid gap-8 md:grid-cols-3">
+                    <div class="reveal card-custom">
+                        <h4 class="font-title text-2xl font-700 mb-4 text-white">Software a Medida</h4>
+                        <p class="text-gray-400 leading-relaxed font-medium">Aplicaciones web y sistemas internos preparados para escalar tanto local como Cloud.</p>
+                    </div>
+                    <div class="reveal card-custom">
+                        <h4 class="font-title text-2xl font-700 mb-4 text-white">Web & E-commerce</h4>
+                        <p class="text-gray-400 leading-relaxed font-medium">Sitios corporativos y tiendas en <strong>WooCommerce</strong> de alto rendimiento, optimizadas para convertir.</p>
+                    </div>
+                    <div class="reveal card-custom">
+                        <h4 class="font-title text-2xl font-700 mb-4 text-white">Odoo Community</h4>
+                        <p class="text-gray-400 leading-relaxed font-medium">Implementamos y adaptamos Odoo para integrar ventas, stock y facturación.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="empresas" class="py-20 bg-white/[0.01] border-y border-white/5 overflow-hidden relative">
+            <div class="max-w-7xl mx-auto px-6 mb-10 text-center">
+                <h3 class="reveal font-title text-xs font-800 text-blue-500 uppercase tracking-[0.5em]">Empresas que confían en Ghia</h3>
+            </div>
+            <div class="relative flex overflow-hidden">
+                <div class="marquee-fade-left"></div>
+                <div class="marquee-fade-right"></div>
+                <div class="animate-marquee whitespace-nowrap flex items-center py-4">
+                    <span class="client-text">Resguardo Documental</span>
+                    <span class="client-text">Municipalidad de Córdoba</span>
+                    <span class="client-text">Stellantis</span>
+                    <span class="client-text">Iveco Group</span>
+                     <span class="client-text">Ghia App</span>
+                    <span class="client-text">Resguardo Documental</span>
+                    <span class="client-text">Municipalidad de Córdoba</span>
+                    <span class="client-text">Stellantis</span>
+                    <span class="client-text">Iveco Group</span>
+                     <span class="client-text">Ghia App</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipo" class="py-24 bg-white/[0.02] border-t border-white/5">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="mb-16 text-center">
+                    <h3 class="reveal font-title text-4xl font-800 mb-4 text-white">El equipo detrás de Ghia</h3>
+                    <p class="reveal text-gray-400 max-w-2xl mx-auto font-medium">Especialistas apasionados por transformar procesos complejos en soluciones digitales simples.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="reveal group relative bg-white/5 p-6 rounded-2xl border border-white/10 hover:border-blue-500/50 transition-all">
+                        <div class="flex items-center gap-4 mb-4">
+                            <img src="data:image/jpeg;base64,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" alt="Mauricio Gaggero" class="w-14 h-14 rounded-full border-2 border-blue-500 object-cover">
+                            <div>
+                                <h4 class="text-white font-bold text-base">Mauricio Gaggero</h4>
+                                <p class="text-blue-400 text-xs font-semibold uppercase tracking-wider">Founder & CTO</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                           Product Owner y Devops con amplia experiencia en desarrollo de software y gestión de proyectos tecnológicos.
+                        </p>
+                        <a href="https://www.linkedin.com/in/mauriciogaggero" target="_blank" class="flex items-center gap-2 text-white/70 text-[10px] font-800 uppercase tracking-widest hover:text-blue-400 transition">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            LinkedIn Profile
+                        </a>
+                    </div>
+
+                    <div class="reveal group relative bg-white/5 p-6 rounded-2xl border border-white/10 hover:border-blue-500/50 transition-all">
+                        <div class="flex items-center gap-4 mb-4">
+                            <img src="data:image/jpeg;base64,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" alt="Nombre" class="w-14 h-14 rounded-full border-2 border-blue-500/50 object-cover">
+                            <div>
+                                <h4 class="text-white font-bold text-base">Tomas Malvissi</h4>
+                                <p class="text-blue-400 text-xs font-semibold uppercase tracking-wider">Lead Developer</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Experto en desarrollo backend y arquitectura de software. Licenciado en Ciencias de la Computación.
+                        </p>
+                        <a href="https://ar.linkedin.com/in/tomasmalvissi" target="_blank" class="flex items-center gap-2 text-white/70 text-[10px] font-800 uppercase tracking-widest hover:text-blue-400 transition">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            LinkedIn Profile
+                        </a>
+                    </div>
+
+                    <div class="reveal group relative bg-white/5 p-6 rounded-2xl border border-white/10 hover:border-blue-500/50 transition-all">
+                        <div class="flex items-center gap-4 mb-4">
+                            <img src="img/team-3.jpg" alt="Nombre" class="w-14 h-14 rounded-full border-2 border-blue-500/50 object-cover">
+                            <div>
+                                <h4 class="text-white font-bold text-base">Matias Carrera</h4>
+                                <p class="text-blue-400 text-xs font-semibold uppercase tracking-wider">SR Developer</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Desarrollador web fullstack React. Estudiante de ingenieria en la UTN.
+                        </p>
+                        <a href="https://ar.linkedin.com/in/matias-carrera-a31a5418b" target="_blank" class="flex items-center gap-2 text-white/70 text-[10px] font-800 uppercase tracking-widest hover:text-blue-400 transition">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            LinkedIn Profile
+                        </a>
+                    </div>
+
+                    <div class="reveal group relative bg-white/5 p-6 rounded-2xl border border-white/10 hover:border-blue-500/50 transition-all">
+                        <div class="flex items-center gap-4 mb-4">
+                            <img src="data:image/jpeg;base64,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" alt="Nombre" class="w-14 h-14 rounded-full border-2 border-blue-500/50 object-cover">
+                            <div>
+                                <h4 class="text-white font-bold text-base">Stefano Gaggero</h4>
+                                <p class="text-blue-400 text-xs font-semibold uppercase tracking-wider">ERP Consultant</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Consultor funcional de Odoo Community enfocado en finanzas y cadena de suministro.
+                        </p>
+                        <a href="https://ar.linkedin.com/in/stefano-luca-gaggero-508a09183" target="_blank" class="flex items-center gap-2 text-white/70 text-[10px] font-800 uppercase tracking-widest hover:text-blue-400 transition">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            LinkedIn Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="py-32">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <div class="reveal badge-custom">Respuesta inmediata</div>
+                <h3 class="reveal font-title text-4xl md:text-6xl font-800 mb-8 text-white">Hablemos de tu sistema</h3>
+                <p class="reveal text-xl text-gray-400 mb-12 font-medium">Te ayudamos a pensar una solución realista y escalable para tu negocio.</p>
+                <a href="https://wa.me/3572667719?text=Hola%20!%20Me%20gustar%C3%ADa%20recibir%20asesoramiento%20profesional%20sobre%20un%20proyecto%20de%20software." 
+                target="_blank" 
+                class="reveal btn-whatsapp">
+                Chatear por WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-main">
+        <div class="max-w-7xl mx-auto px-6 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="text-2xl font-title font-800 tracking-tighter text-white mb-6">
+                        GHIA<span class="text-blue-500">.</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed font-medium">
+                        Transformamos la complejidad operativa en software simple, escalable y eficiente. Ingeniería argentina para el mundo.
+                    </p>
+                </div>
+
+                <div>
+                    <h5 class="footer-title">Navegación</h5>
+                    <ul class="footer-links">
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#empresas">Empresas</a></li>
+                        <li><a href="#equipo">Equipo</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="footer-title">Soluciones</h5>
+                    <ul class="footer-links">
+                        <li><span class="cursor-default">Software a Medida</span></li>
+                        <li><span class="cursor-default">Webs & WooCommerce</span></li> 
+                        <li><span class="cursor-default">Odoo Community ERP</span></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="footer-title">Hablemos</h5>
+                    <ul class="footer-links">
+                        <li class="flex items-center gap-3">
+                            <span class="status-dot"></span>
+                            <span>Soporte activo</span>
+                        </li>
+                        <li>
+                            <a href="mailto:mauricio.gaggero@hotmail.com" class="hover:text-blue-400">mauricio.gaggero@hotmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Ghia Software. Todos los derechos reservados.</p>
+                <div class="flex gap-8">
+                    <a href="https://www.linkedin.com/in/mauriciogaggero" class="social-link">LinkedIn</a>
+                    <a href="https://github.com/maurigaggero" class="social-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
