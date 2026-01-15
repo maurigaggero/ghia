@@ -10,7 +10,7 @@ tailwind.config = {
                 ghia: {
                     primary: "#2563eb",
                     secondary: "#38bdf8",
-                    dark: "#020617",
+                    dark: "#030b30",
                 },
             },
         },
